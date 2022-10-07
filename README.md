@@ -25,7 +25,7 @@ In data science, we always come across large data sets and parsing through the d
 
 # Linear Search
 ## Linear Search Implementation
-`def find_in_list(object_list, book_name):
+```def find_in_list(object_list, book_name):
     """
     Find the book_name entry in the object list tuples.
     Parameters:
@@ -39,4 +39,5 @@ In data science, we always come across large data sets and parsing through the d
     for entry in object_list:
         if book_name == entry[0]:
             return entry
-    return (0, 0)`
+    return (0, 0)
+```
