@@ -25,7 +25,8 @@ In data science, we always come across large data sets and parsing through the d
 
 # Linear Search
 ## Linear Search Implementation
-```def find_in_list(object_list, book_name):
+```
+def find_in_list(object_list, book_name):
     """
     Find the book_name entry in the object list tuples.
     Parameters:
@@ -40,4 +41,6 @@ In data science, we always come across large data sets and parsing through the d
         if book_name == entry[0]:
             return entry
     return (0, 0)
-```
+```  
+This function goes through the list of tuples one by one and looks for the object. As you can imagine, the lookup time scales linearly with data set size as can be seen in the image below.
+![Lookup times for linear search](https://www.git)
