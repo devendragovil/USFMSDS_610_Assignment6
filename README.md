@@ -1,6 +1,4 @@
-The Graphs in this repo are clearly visible only in light mode. Dark Mode isn't supported for Graphs as yet.  
-  
-# Code Demonstration for Hash Tables
+  # Code Demonstration for Hash Tables
 This repo contains the code and relevant details for the code demonstration (Assignment 6) for the course MSDS-610, part of the MS in Data Science program at the University of San Francisco.  
 This repo contains contributions by the following team members (mail ids are mentioned in hyperlink):
 - [Devendra Govil](mailto:dgovil@dons.usfca.edu)
@@ -48,7 +46,8 @@ def find_in_list(object_list, book_name):
             return entry
     return (0, 0)
 ```  
-This function goes through the list of tuples one by one and looks for the object. As you can imagine, the lookup time scales linearly with data set size as can be seen in the image below.
+This function goes through the list of tuples one by one and looks for the object. As you can imagine, the lookup time scales linearly with data set size as can be seen in the image below.  
+> The Graphs in this repo are clearly visible only in light mode. Graphs aren't compatible with Dark mode currently.  
 ![Lookup times for linear search](https://github.com/devendragovil/USFMSDS_610_Assignment6/blob/main/resources/linear_search_output.png)
 
 # Hash Table Implementation
@@ -146,7 +145,8 @@ def find_in_hashtable(given_ht, value_to_find):
 
 As we increase the number of buckets, we decrease the search space by that factor (assuming an approximately uniform assignment of keys to buckets). This means that the search time decreases with increasing buckets. In the extreme case, when we have a __perfect hash function__ which maps every key to a unique bucket, we reach the desired scenario of lookup times that are independent of data size.  
   
-We have generated lookup times for various buckets and compare them with each other as well as with linear search. We can see (from the image below) that lookup times decrease with increasing buckets.
+We have generated lookup times for various buckets and compare them with each other as well as with linear search. We can see (from the image below) that lookup times decrease with increasing buckets.  
+> The Graphs in this repo are clearly visible only in light mode. Graphs aren't compatible with Dark mode currently. 
 ![Lookup times for hashtables and linear search](https://github.com/devendragovil/USFMSDS_610_Assignment6/blob/main/resources/hashtable_linear_comparison.png)
 
 # Conclusion
