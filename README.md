@@ -10,6 +10,10 @@ This repo contains contributions by the following team members (mail ids are men
 - Compare Run times for both
 - Look at trends in run times for different bucket sizes vis-a-vis linear search
 
+# Source of Data
+The data set for books has been taken from the following Kaggle page:  
+https://www.kaggle.com/datasets/saurabhbagchi/books-dataset?resource=download
+
 # Recap of Previous Discussion
 ## What are Hash Tables?
 Hashtables are useful data structures that allow us to quickly organize, sort, and look up data.  
